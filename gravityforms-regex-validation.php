@@ -5,7 +5,7 @@ Plugin URI: https://github.com/mmirus/gravityforms-regex-validation
 Description: Add regular expression validation option to Gravity Forms single text input
 Author: Matt Mirus
 Author URI: https://github.com/mmirus
-Version: 1.0
+Version: 1.0.1
 GitHub Plugin URI: https://github.com/mmirus/gravityforms-regex-validation
 */
 
