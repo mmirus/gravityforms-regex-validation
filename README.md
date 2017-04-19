@@ -1,5 +1,5 @@
 # gravityforms-regex-validation
-Add regular expression validation options to Gravity Forms single line text input.
+A WordPress plugin that adds regular expression validation options to Gravity Forms' single line text input.
 
 Use regular expressions to validate data entered in the single line text input type.
 
@@ -14,5 +14,7 @@ Example:
 
 * RegEx Pattern: ^1[0-9]{1}$
 * Validation Message: Please enter a number between 10-19 (inclusive).
+
+To install, just download the ZIP for the latest release from this repository and install as normal via WordPress.
 
 Note: this plugin optionally can be updated using the [Github Updater plugin](https://github.com/afragen/github-updater).
