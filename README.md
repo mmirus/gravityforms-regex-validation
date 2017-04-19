@@ -12,7 +12,7 @@ To use:
 
 Example:
 
-RegEx Pattern: ^1[0-9]{1}$
-Validation Message: Please enter a number between 10-19 (inclusive).
+* RegEx Pattern: ^1[0-9]{1}$
+* Validation Message: Please enter a number between 10-19 (inclusive).
 
 Note: this plugin optionally can be updated using the [Github Updater plugin](https://github.com/afragen/github-updater).
