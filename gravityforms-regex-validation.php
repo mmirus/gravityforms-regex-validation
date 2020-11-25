@@ -82,7 +82,7 @@ class GF_RegEx {
   // validate submitted data against provided regex
   public function validate($result, $value, $form, $field) {
     // if validation has passed so far, and regex validation is enabled, and a pattern was provided, and a value was provided
-    if ($result['is_valid'] && $field['regexValidation'] && !empty($field['regexPattern']) && !empty($value)) {
+    if ($result['is_valid'] && $field['regexValidation'] && !empty($field['regexPattern']) && ( strlen($value) != 0 )) {
       $regex = '/' . $field['regexPattern'] . '/';
       if (preg_match($regex, $value) !== 1) {
         $result['is_valid'] = false;
